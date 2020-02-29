@@ -1,47 +1,205 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="14256" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="15702" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="i9h-27-sbd">
+    <device id="watch44"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14243"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="14219"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="15501"/>
     </dependencies>
     <scenes>
-        <!--Interface Controller-->
-        <scene sceneID="aou-V4-d1y">
+        <!--Main Interface Controller-->
+        <scene sceneID="WXA-Vu-k0s">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModuleProvider="target"/>
+                <controller id="i9h-27-sbd" customClass="mainInterfaceController" customModule="covid19_applewatch_WatchKit_Extension">
+                    <items>
+                        <group width="1" alignment="left" layout="vertical" id="5od-dW-PxH">
+                            <items>
+                                <group width="158" height="100" alignment="center" layout="vertical" id="avt-td-Erh">
+                                    <items>
+                                        <label height="40" alignment="center" text="확진자" textAlignment="left" id="mwu-zt-2RG">
+                                            <color key="textColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <fontDescription key="font" type="system" weight="heavy" pointSize="35"/>
+                                        </label>
+                                        <group height="55" alignment="center" id="xOE-K8-OCC">
+                                            <items>
+                                                <label height="60" alignment="left" text="1,000" textAlignment="left" id="ldF-Sq-UJE" userLabel="mainlabel">
+                                                    <fontDescription key="font" type="system" weight="semibold" pointSize="47"/>
+                                                </label>
+                                                <label height="38" alignment="left" text="명" textAlignment="left" id="MxP-i6-2F7">
+                                                    <fontDescription key="font" type="system" weight="light" pointSize="25"/>
+                                                </label>
+                                            </items>
+                                        </group>
+                                    </items>
+                                </group>
+                                <separator width="90" alignment="center" id="4Bz-h0-Gpa"/>
+                                <group width="1" height="90" alignment="left" id="IqM-rw-tWw">
+                                    <items>
+                                        <group width="172" height="60" alignment="center" verticalAlignment="center" layout="vertical" radius="12" id="Nb2-jD-1ZB">
+                                            <items>
+                                                <label width="74" height="25" alignment="center" text="현재 지역 확인자" textAlignment="center" id="Q5k-e2-Nof">
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <fontDescription key="font" type="system" weight="heavy" pointSize="13"/>
+                                                </label>
+                                                <group width="1" height="18" alignment="left" id="lsW-Pg-tfT">
+                                                    <items>
+                                                        <imageView width="11" height="11" alignment="center" verticalAlignment="center" image="circle.fill" catalog="system" id="6g6-db-Net">
+                                                            <color key="tintColor" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </imageView>
+                                                        <label height="19" alignment="center" text="500" textAlignment="left" id="CvR-vD-Iiu" userLabel="locationcountlabel">
+                                                            <fontDescription key="font" type="system" weight="semibold" pointSize="20"/>
+                                                        </label>
+                                                        <label width="11" height="15" alignment="center" text="명" textAlignment="left" id="Huw-bo-I4w">
+                                                            <fontDescription key="font" type="system" pointSize="14"/>
+                                                        </label>
+                                                    </items>
+                                                </group>
+                                            </items>
+                                            <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                                        </group>
+                                    </items>
+                                </group>
+                                <group height="85" alignment="center" verticalAlignment="center" id="7TS-iP-wLj">
+                                    <items>
+                                        <group width="84" height="64" alignment="right" verticalAlignment="center" layout="vertical" radius="12" id="h1V-cb-cds">
+                                            <items>
+                                                <label height="23" alignment="center" text="사망자" textAlignment="center" id="Iuc-Cx-tbF">
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <fontDescription key="font" type="system" weight="heavy" pointSize="13"/>
+                                                </label>
+                                                <group width="87" height="29" alignment="center" id="FDY-WC-pit">
+                                                    <items>
+                                                        <label height="20" alignment="center" text="10" textAlignment="left" id="0k6-c4-xhH" userLabel="deathlabel">
+                                                            <fontDescription key="font" type="system" weight="semibold" pointSize="20"/>
+                                                        </label>
+                                                        <label width="11" height="15" alignment="center" text="명" textAlignment="left" id="oao-sT-pNI">
+                                                            <fontDescription key="font" type="system" pointSize="14"/>
+                                                        </label>
+                                                    </items>
+                                                </group>
+                                            </items>
+                                            <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                                        </group>
+                                        <group width="84" height="64" alignment="left" verticalAlignment="center" layout="vertical" radius="14" id="4Kz-9H-aRD">
+                                            <items>
+                                                <label height="23" alignment="center" text="격리해제" textAlignment="center" id="uqo-r1-veb">
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <fontDescription key="font" type="system" weight="heavy" pointSize="13"/>
+                                                </label>
+                                                <group width="87" height="29" alignment="center" id="WfO-GG-YqZ">
+                                                    <items>
+                                                        <label height="20" alignment="center" text="10" textAlignment="left" id="5CO-F6-EtJ" userLabel="deathlabel">
+                                                            <fontDescription key="font" type="system" weight="semibold" pointSize="20"/>
+                                                        </label>
+                                                        <label width="11" height="15" alignment="center" text="명" textAlignment="left" id="2IU-ub-MaV">
+                                                            <fontDescription key="font" type="system" pointSize="14"/>
+                                                        </label>
+                                                    </items>
+                                                </group>
+                                            </items>
+                                            <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                                        </group>
+                                    </items>
+                                </group>
+                                <group width="140" height="83" alignment="center" verticalAlignment="bottom" layout="vertical" id="Zdr-3n-r6o">
+                                    <items>
+                                        <label width="78" height="12" alignment="center" text="마지막 업데이트:" textAlignment="right" id="04D-ym-gyj">
+                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <fontDescription key="font" type="system" weight="semibold" pointSize="13"/>
+                                        </label>
+                                        <dateLabel width="136" height="23" alignment="center" textAlignment="center" id="2Ov-SZ-HOL" userLabel="lastupdatelabel">
+                                            <fontDescription key="font" type="system" pointSize="15"/>
+                                            <dateFormatterStyle key="dateStyle" short="YES"/>
+                                            <dateFormatterStyle key="timeStyle" short="YES"/>
+                                            <date key="previewedDate" timeIntervalSinceReferenceDate="305744940">
+                                                <!--2010-09-09 17:09:00 +0000-->
+                                            </date>
+                                        </dateLabel>
+                                        <button width="136" height="35" alignment="center" title="업데이트" id="YSo-vp-ijZ">
+                                            <connections>
+                                                <action selector="updatebutton" destination="i9h-27-sbd" id="Hln-oy-A1Q"/>
+                                            </connections>
+                                        </button>
+                                    </items>
+                                </group>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="deathlabel" destination="0k6-c4-xhH" id="s4z-EE-g6Y"/>
+                        <outlet property="locationlabel" destination="CvR-vD-Iiu" id="eFR-1C-x21"/>
+                        <outlet property="releaselabel" destination="5CO-F6-EtJ" id="peX-d9-i6J"/>
+                        <outlet property="totallabel" destination="ldF-Sq-UJE" id="p6M-aS-5va"/>
+                        <outlet property="updatebutton" destination="YSo-vp-ijZ" id="vdo-hQ-DPK"/>
+                        <outlet property="updatelabel" destination="2Ov-SZ-HOL" id="Ow5-JC-ldv"/>
+                    </connections>
+                </controller>
             </objects>
-            <point key="canvasLocation" x="220" y="345"/>
+            <point key="canvasLocation" x="150.78260869565216" y="232.61160714285714"/>
         </scene>
         <!--Static Notification Interface Controller-->
         <scene sceneID="AEw-b0-oYE">
             <objects>
                 <notificationController id="YCC-NB-fut">
                     <items>
-                        <label alignment="left" text="Alert Label" numberOfLines="0" id="IdU-wH-bcW"/>
+                        <group width="1" alignment="left" id="4lX-KF-90f">
+                            <items>
+                                <label height="20" alignment="left" text="[2월 3일]" id="reH-hW-wp5"/>
+                                <label alignment="left" text=" 질병관리본부 발표" id="xqm-6W-ItH"/>
+                            </items>
+                        </group>
                     </items>
                     <notificationCategory key="notificationCategory" identifier="myCategory" id="JfB-70-Muf"/>
                     <connections>
-                        <outlet property="notificationAlertLabel" destination="IdU-wH-bcW" id="JKC-fr-R95"/>
+                        <outlet property="notificationAlertLabel" destination="xqm-6W-ItH" id="06c-wu-fcc"/>
+                        <outlet property="notificationTitleLabel" destination="xqm-6W-ItH" id="ozd-Ne-CiY"/>
                         <segue destination="4sK-HA-Art" kind="relationship" relationship="dynamicNotificationInterface" id="kXh-Jw-8B1"/>
-                        <segue destination="eXb-UN-Cd0" kind="relationship" relationship="dynamicInteractiveNotificationInterface" id="mpB-YA-K8N"/>
                     </connections>
                 </notificationController>
             </objects>
-            <point key="canvasLocation" x="220" y="643"/>
+            <point key="canvasLocation" x="150.78260869565216" y="641.29464285714289"/>
         </scene>
         <!--Notification Controller-->
         <scene sceneID="ZPc-GJ-vnh">
             <objects>
-                <controller id="4sK-HA-Art" customClass="NotificationController" customModuleProvider="target"/>
+                <controller id="4sK-HA-Art" customClass="NotificationController" customModule="covid19_applewatch_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <group width="1" alignment="left" id="55j-qI-K4k">
+                            <items>
+                                <label height="20" alignment="left" text="[2월 3일]" id="UWq-Dd-NOz"/>
+                                <label alignment="left" text=" 질병관리본부 발표" id="hzZ-OF-smU"/>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" id="Bci-LP-m4F">
+                            <items>
+                                <label height="20" alignment="left" text="확진자" id="0hV-kW-cdw"/>
+                                <label alignment="right" text="1" id="ilE-Dr-F7u"/>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" id="1Pp-hg-pLV">
+                            <items>
+                                <label alignment="left" text="격리해제" id="vuQ-nn-tsE"/>
+                                <label alignment="right" text="2" id="JJd-TB-Bgj"/>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" id="ReM-5Z-czh">
+                            <items>
+                                <label alignment="left" text="사망자" id="bVz-ZO-U9O"/>
+                                <label alignment="right" text="3" id="OOv-oA-rhc"/>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="curelabel" destination="JJd-TB-Bgj" id="cBs-Lt-3ud"/>
+                        <outlet property="date" destination="UWq-Dd-NOz" id="VBH-mv-QG5"/>
+                        <outlet property="deathlabel" destination="OOv-oA-rhc" id="MF8-RN-hNG"/>
+                        <outlet property="mainvalue" destination="ilE-Dr-F7u" id="eDe-4c-FFE"/>
+                    </connections>
+                </controller>
             </objects>
             <point key="canvasLocation" x="468" y="643"/>
         </scene>
-        <!--Notification Controller-->
-        <scene sceneID="Niz-AI-uX2">
-            <objects>
-                <controller id="eXb-UN-Cd0" customClass="NotificationController" customModuleProvider="target"/>
-            </objects>
-            <point key="canvasLocation" x="468" y="345"/>
-        </scene>
     </scenes>
+    <resources>
+        <image name="circle.fill" catalog="system" width="64" height="60"/>
+    </resources>
 </document>

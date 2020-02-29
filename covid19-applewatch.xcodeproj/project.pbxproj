@@ -7,14 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A8DFF77B2404C1190058882D /* covid19-applewatch WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A8DFF77A2404C1190058882D /* covid19-applewatch WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A8DFF77B2404C1190058882D /* covidwatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A8DFF77A2404C1190058882D /* covidwatch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		A8DFF7812404C1190058882D /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8DFF77F2404C1190058882D /* Interface.storyboard */; };
-		A8DFF7832404C11A0058882D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8DFF7822404C11A0058882D /* Assets.xcassets */; };
 		A8DFF78A2404C11A0058882D /* covid19-applewatch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A8DFF7892404C11A0058882D /* covid19-applewatch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		A8DFF78F2404C11A0058882D /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8DFF78E2404C11A0058882D /* InterfaceController.swift */; };
 		A8DFF7912404C11A0058882D /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8DFF7902404C11A0058882D /* ExtensionDelegate.swift */; };
 		A8DFF7932404C11A0058882D /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8DFF7922404C11A0058882D /* NotificationController.swift */; };
 		A8DFF7952404C11B0058882D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8DFF7942404C11B0058882D /* Assets.xcassets */; };
+		A8DFF7A62404C1FF0058882D /* mainInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8DFF7A52404C1FF0058882D /* mainInterfaceController.swift */; };
+		A8DFF7A8240BCB0F0058882D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8DFF7A7240BCB0F0058882D /* Assets.xcassets */; };
+		A8DFF7E0240C15150058882D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8DFF7A7240BCB0F0058882D /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +53,7 @@
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				A8DFF77B2404C1190058882D /* covid19-applewatch WatchKit App.app in Embed Watch Content */,
+				A8DFF77B2404C1190058882D /* covidwatch.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -60,37 +61,41 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1101D1D584C1768F30184B74 /* Pods_covid19_applewatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_covid19_applewatch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53C04A201F8EE45B9810A27A /* Pods_covid19_applewatch_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_covid19_applewatch_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8DFF7762404C1190058882D /* covid19-applewatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "covid19-applewatch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A8DFF77A2404C1190058882D /* covid19-applewatch WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "covid19-applewatch WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8DFF77A2404C1190058882D /* covidwatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = covidwatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8DFF7802404C1190058882D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
-		A8DFF7822404C11A0058882D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A8DFF7842404C11A0058882D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A8DFF7892404C11A0058882D /* covid19-applewatch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "covid19-applewatch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A8DFF78E2404C11A0058882D /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
 		A8DFF7902404C11A0058882D /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		A8DFF7922404C11A0058882D /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		A8DFF7942404C11B0058882D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A8DFF7962404C11B0058882D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A8DFF7972404C11B0058882D /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		A8DFF7A52404C1FF0058882D /* mainInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainInterfaceController.swift; sourceTree = "<group>"; };
+		A8DFF7A7240BCB0F0058882D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAB63FDAED461EC8EE0D3334 /* Pods_covid19_applewatch_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_covid19_applewatch_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFrameworksBuildPhase section */
-		A8DFF7862404C11A0058882D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
 /* Begin PBXGroup section */
+		13573C2A31994432EAC1A49D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1101D1D584C1768F30184B74 /* Pods_covid19_applewatch.framework */,
+				53C04A201F8EE45B9810A27A /* Pods_covid19_applewatch_WatchKit_App.framework */,
+				CAB63FDAED461EC8EE0D3334 /* Pods_covid19_applewatch_WatchKit_Extension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A8DFF76F2404C1190058882D = {
 			isa = PBXGroup;
 			children = (
 				A8DFF77E2404C1190058882D /* covid19-applewatch WatchKit App */,
 				A8DFF78D2404C11A0058882D /* covid19-applewatch WatchKit Extension */,
 				A8DFF7772404C1190058882D /* Products */,
+				13573C2A31994432EAC1A49D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,7 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				A8DFF7762404C1190058882D /* covid19-applewatch.app */,
-				A8DFF77A2404C1190058882D /* covid19-applewatch WatchKit App.app */,
+				A8DFF77A2404C1190058882D /* covidwatch.app */,
 				A8DFF7892404C11A0058882D /* covid19-applewatch WatchKit Extension.appex */,
 			);
 			name = Products;
@@ -108,7 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				A8DFF77F2404C1190058882D /* Interface.storyboard */,
-				A8DFF7822404C11A0058882D /* Assets.xcassets */,
+				A8DFF7A7240BCB0F0058882D /* Assets.xcassets */,
 				A8DFF7842404C11A0058882D /* Info.plist */,
 			);
 			path = "covid19-applewatch WatchKit App";
@@ -117,12 +122,12 @@
 		A8DFF78D2404C11A0058882D /* covid19-applewatch WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				A8DFF78E2404C11A0058882D /* InterfaceController.swift */,
 				A8DFF7902404C11A0058882D /* ExtensionDelegate.swift */,
 				A8DFF7922404C11A0058882D /* NotificationController.swift */,
 				A8DFF7942404C11B0058882D /* Assets.xcassets */,
 				A8DFF7962404C11B0058882D /* Info.plist */,
 				A8DFF7972404C11B0058882D /* PushNotificationPayload.apns */,
+				A8DFF7A52404C1FF0058882D /* mainInterfaceController.swift */,
 			);
 			path = "covid19-applewatch WatchKit Extension";
 			sourceTree = "<group>";
@@ -161,7 +166,7 @@
 			);
 			name = "covid19-applewatch WatchKit App";
 			productName = "covid19-applewatch WatchKit App";
-			productReference = A8DFF77A2404C1190058882D /* covid19-applewatch WatchKit App.app */;
+			productReference = A8DFF77A2404C1190058882D /* covidwatch.app */;
 			productType = "com.apple.product-type.application.watchapp2";
 		};
 		A8DFF7882404C11A0058882D /* covid19-applewatch WatchKit Extension */ = {
@@ -169,7 +174,6 @@
 			buildConfigurationList = A8DFF79A2404C11B0058882D /* Build configuration list for PBXNativeTarget "covid19-applewatch WatchKit Extension" */;
 			buildPhases = (
 				A8DFF7852404C11A0058882D /* Sources */,
-				A8DFF7862404C11A0058882D /* Frameworks */,
 				A8DFF7872404C11A0058882D /* Resources */,
 			);
 			buildRules = (
@@ -227,6 +231,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8DFF7E0240C15150058882D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,7 +239,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8DFF7832404C11A0058882D /* Assets.xcassets in Resources */,
+				A8DFF7A8240BCB0F0058882D /* Assets.xcassets in Resources */,
 				A8DFF7812404C1190058882D /* Interface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,7 +261,7 @@
 			files = (
 				A8DFF7932404C11A0058882D /* NotificationController.swift in Sources */,
 				A8DFF7912404C11A0058882D /* ExtensionDelegate.swift in Sources */,
-				A8DFF78F2404C11A0058882D /* InterfaceController.swift in Sources */,
+				A8DFF7A62404C1FF0058882D /* mainInterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,6 +409,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 11114;
 				DEVELOPMENT_TEAM = 9GW34P3A2G;
 				INFOPLIST_FILE = "covid19-applewatch WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -411,6 +417,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hanukoon.covid19-applewatch.watchkitapp.watchkitextension";
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
@@ -426,6 +433,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 11114;
 				DEVELOPMENT_TEAM = 9GW34P3A2G;
 				INFOPLIST_FILE = "covid19-applewatch WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -433,6 +441,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hanukoon.covid19-applewatch.watchkitapp.watchkitextension";
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
@@ -449,11 +458,13 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 11114;
 				DEVELOPMENT_TEAM = 9GW34P3A2G;
 				IBSC_MODULE = covid19_applewatch_WatchKit_Extension;
 				INFOPLIST_FILE = "covid19-applewatch WatchKit App/Info.plist";
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hanukoon.covid19-applewatch.watchkitapp";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = covidwatch;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -468,11 +479,13 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 11114;
 				DEVELOPMENT_TEAM = 9GW34P3A2G;
 				IBSC_MODULE = covid19_applewatch_WatchKit_Extension;
 				INFOPLIST_FILE = "covid19-applewatch WatchKit App/Info.plist";
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hanukoon.covid19-applewatch.watchkitapp";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = covidwatch;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -485,9 +498,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 11114;
 				DEVELOPMENT_TEAM = 9GW34P3A2G;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hanukoon.covid19-applewatch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -498,9 +511,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 11114;
 				DEVELOPMENT_TEAM = 9GW34P3A2G;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hanukoon.covid19-applewatch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
