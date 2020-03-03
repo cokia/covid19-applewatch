@@ -134,69 +134,41 @@
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="150.78260869565216" y="232.61160714285714"/>
+            <point key="canvasLocation" x="151" y="1079"/>
         </scene>
         <!--Static Notification Interface Controller-->
-        <scene sceneID="AEw-b0-oYE">
+        <scene sceneID="Z8h-19-l48">
             <objects>
-                <notificationController id="YCC-NB-fut">
+                <notificationController id="E05-9z-5wb" customClass="NotificationController" customModule="covid19_applewatch_WatchKit_Extension">
                     <items>
-                        <group width="1" alignment="left" id="4lX-KF-90f">
+                        <label alignment="center" text="[2월 3일] 1차 질본 브리핑" textAlignment="center" numberOfLines="0" id="hmp-T5-Nwe"/>
+                        <group width="1" alignment="left" id="xCJ-oe-raI">
                             <items>
-                                <label height="20" alignment="left" text="[2월 3일]" id="reH-hW-wp5"/>
-                                <label alignment="left" text=" 질병관리본부 발표" id="xqm-6W-ItH"/>
+                                <label height="20" alignment="left" text="확진자" id="bFy-pK-yUU"/>
+                                <label alignment="right" text="1" id="6g2-wo-0rV"/>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" id="fON-Xc-1rU">
+                            <items>
+                                <label alignment="left" text="격리해제" id="bh0-9c-Z6y"/>
+                                <label alignment="right" text="2" id="f9z-V1-2cH"/>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" id="41x-2x-9wH">
+                            <items>
+                                <label alignment="left" text="사망자" id="XCo-df-fEQ"/>
+                                <label alignment="right" text="3" id="u7G-qf-ymE"/>
                             </items>
                         </group>
                     </items>
-                    <notificationCategory key="notificationCategory" identifier="myCategory" id="JfB-70-Muf"/>
+                    <notificationCategory key="notificationCategory" identifier="CDCnoti" id="Kzy-56-uUK"/>
                     <connections>
-                        <outlet property="notificationAlertLabel" destination="xqm-6W-ItH" id="06c-wu-fcc"/>
-                        <outlet property="notificationTitleLabel" destination="xqm-6W-ItH" id="ozd-Ne-CiY"/>
-                        <segue destination="4sK-HA-Art" kind="relationship" relationship="dynamicNotificationInterface" id="kXh-Jw-8B1"/>
+                        <outlet property="notificationAlertLabel" destination="hmp-T5-Nwe" id="3fm-Vv-B7h"/>
+                        <outlet property="notificationTitleLabel" destination="hmp-T5-Nwe" id="eMq-5F-fAz"/>
                     </connections>
                 </notificationController>
             </objects>
-            <point key="canvasLocation" x="150.78260869565216" y="641.29464285714289"/>
-        </scene>
-        <!--Notification Controller-->
-        <scene sceneID="ZPc-GJ-vnh">
-            <objects>
-                <controller id="4sK-HA-Art" customClass="NotificationController" customModule="covid19_applewatch_WatchKit_App" customModuleProvider="target">
-                    <items>
-                        <group width="1" alignment="left" id="55j-qI-K4k">
-                            <items>
-                                <label height="20" alignment="left" text="[2월 3일]" id="UWq-Dd-NOz"/>
-                                <label alignment="left" text=" 질병관리본부 발표" id="hzZ-OF-smU"/>
-                            </items>
-                        </group>
-                        <group width="1" alignment="left" id="Bci-LP-m4F">
-                            <items>
-                                <label height="20" alignment="left" text="확진자" id="0hV-kW-cdw"/>
-                                <label alignment="right" text="1" id="ilE-Dr-F7u"/>
-                            </items>
-                        </group>
-                        <group width="1" alignment="left" id="1Pp-hg-pLV">
-                            <items>
-                                <label alignment="left" text="격리해제" id="vuQ-nn-tsE"/>
-                                <label alignment="right" text="2" id="JJd-TB-Bgj"/>
-                            </items>
-                        </group>
-                        <group width="1" alignment="left" id="ReM-5Z-czh">
-                            <items>
-                                <label alignment="left" text="사망자" id="bVz-ZO-U9O"/>
-                                <label alignment="right" text="3" id="OOv-oA-rhc"/>
-                            </items>
-                        </group>
-                    </items>
-                    <connections>
-                        <outlet property="curelabel" destination="JJd-TB-Bgj" id="cBs-Lt-3ud"/>
-                        <outlet property="date" destination="UWq-Dd-NOz" id="VBH-mv-QG5"/>
-                        <outlet property="deathlabel" destination="OOv-oA-rhc" id="MF8-RN-hNG"/>
-                        <outlet property="mainvalue" destination="ilE-Dr-F7u" id="eDe-4c-FFE"/>
-                    </connections>
-                </controller>
-            </objects>
-            <point key="canvasLocation" x="468" y="643"/>
+            <point key="canvasLocation" x="151" y="1431"/>
         </scene>
     </scenes>
     <resources>
