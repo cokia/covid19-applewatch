@@ -7,14 +7,34 @@
 //
 
 import WatchKit
+import UIKit
+import UserNotifications
 
 class ExtensionDelegate: NSObject, WKExtensionDelegate {
-
-
     func applicationDidFinishLaunching() {
-        // Perform any final initialization of your application.
+        print("ASD")
+        WKExtension.shared().registerForRemoteNotifications()
+        UNUserNotificationCenter.current().requestAuthorization(
+            options: [.alert, .sound, .badge],
+            completionHandler: { (didAllow, error) in
+                print(didAllow)
+            }
+        )
     }
-
+    
+    func didRegisterForRemoteNotifications(withDeviceToken deviceToken: Data) {
+        let token = deviceToken.reduce("", {$0 + String(format: "%02X", $1)})
+        print("APNs Device Token is \(token)")
+    }
+    
+    func didReceiveRemoteNotification(_ userInfo: [AnyHashable : Any], fetchCompletionHandler completionHandler: @escaping (WKBackgroundFetchResult) -> Void) {
+        print(userInfo)
+    }
+    
+    func didFailToRegisterForRemoteNotificationsWithError(_ error: Error) {
+        print("APNs register failed.")
+    }
+    
     func applicationDidBecomeActive() {
         // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
     }

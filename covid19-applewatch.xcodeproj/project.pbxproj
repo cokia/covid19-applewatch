@@ -17,6 +17,7 @@
 		A8DFF7A8240BCB0F0058882D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8DFF7A7240BCB0F0058882D /* Assets.xcassets */; };
 		A8DFF7E0240C15150058882D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8DFF7A7240BCB0F0058882D /* Assets.xcassets */; };
 		A8DFF7E4240EBEC50058882D /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8DFF77F2404C1190058882D /* Interface.storyboard */; };
+		A8DFF81E240F385F0058882D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8DFF7A7240BCB0F0058882D /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -252,6 +253,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8DFF7E4240EBEC50058882D /* Interface.storyboard in Resources */,
+				A8DFF81E240F385F0058882D /* Assets.xcassets in Resources */,
 				A8DFF7952404C11B0058882D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,7 +416,7 @@
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_ENTITLEMENTS = "covid19-applewatch WatchKit Extension/covid19-applewatch WatchKit Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 11114;
+				CURRENT_PROJECT_VERSION = 11115;
 				DEVELOPMENT_TEAM = 9GW34P3A2G;
 				INFOPLIST_FILE = "covid19-applewatch WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -423,7 +425,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.2;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.hanukoon.covid19-watch.watchkitapp.watchkitextension";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hanukoon.covid19-applewatch.watchkitapp.extension";
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -439,7 +441,7 @@
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_ENTITLEMENTS = "covid19-applewatch WatchKit Extension/covid19-applewatch WatchKit Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 11114;
+				CURRENT_PROJECT_VERSION = 11115;
 				DEVELOPMENT_TEAM = 9GW34P3A2G;
 				INFOPLIST_FILE = "covid19-applewatch WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -448,7 +450,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.2;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.hanukoon.covid19-watch.watchkitapp.watchkitextension";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hanukoon.covid19-applewatch.watchkitapp.extension";
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;

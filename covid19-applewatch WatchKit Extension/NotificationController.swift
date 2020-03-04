@@ -12,10 +12,9 @@ import UserNotifications
 
 
 class NotificationController: WKUserNotificationInterfaceController {
-    @IBOutlet weak var datelabel: WKInterfaceLabel!
-    @IBOutlet weak var mainlabel: WKInterfaceLabel!
-    @IBOutlet weak var curelabel: WKInterfaceLabel!
-    @IBOutlet weak var deathlabel: WKInterfaceLabel!
+//    @IBOutlet weak var mainlabel: WKInterfaceLabel!
+//    @IBOutlet weak var curelabel: WKInterfaceLabel!
+//    @IBOutlet weak var deathlabel: WKInterfaceLabel!
     
     
     override init() {
@@ -40,8 +39,5 @@ class NotificationController: WKUserNotificationInterfaceController {
         // Implement it if you use a dynamic notification interface.
         // Populate your dynamic notification interface as quickly as possible.
     }
-     func didReceiveLocalNotification (localNotification : UILocalNotification, withCompletion completionHandler : ((WKUserNotificationInterfaceType)-> Void)) {
-        completionHandler (.custom)
-        }
 
 }

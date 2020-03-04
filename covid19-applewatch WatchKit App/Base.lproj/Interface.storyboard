@@ -142,6 +142,7 @@
                 <notificationController id="E05-9z-5wb" customClass="NotificationController" customModule="covid19_applewatch_WatchKit_Extension">
                     <items>
                         <label alignment="center" text="[2월 3일] 1차 질본 브리핑" textAlignment="center" numberOfLines="0" id="hmp-T5-Nwe"/>
+                        <label alignment="left" text="TEST" id="upr-UO-U6z"/>
                         <group width="1" alignment="left" id="xCJ-oe-raI">
                             <items>
                                 <label height="20" alignment="left" text="확진자" id="bFy-pK-yUU"/>
@@ -163,8 +164,11 @@
                     </items>
                     <notificationCategory key="notificationCategory" identifier="CDCnoti" id="Kzy-56-uUK"/>
                     <connections>
-                        <outlet property="notificationAlertLabel" destination="hmp-T5-Nwe" id="3fm-Vv-B7h"/>
-                        <outlet property="notificationTitleLabel" destination="hmp-T5-Nwe" id="eMq-5F-fAz"/>
+                        <outlet property="curelabel" destination="f9z-V1-2cH" id="N3G-h8-1vD"/>
+                        <outlet property="deathlabel" destination="u7G-qf-ymE" id="wJ5-o9-6lm"/>
+                        <outlet property="mainlabel" destination="6g2-wo-0rV" id="Po2-aF-ZvP"/>
+                        <outlet property="notificationAlertLabel" destination="upr-UO-U6z" id="X33-qc-o1D"/>
+                        <outlet property="notificationTitleLabel" destination="hmp-T5-Nwe" id="qvn-Oq-4cT"/>
                     </connections>
                 </notificationController>
             </objects>
