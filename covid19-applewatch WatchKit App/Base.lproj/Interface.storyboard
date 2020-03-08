@@ -131,6 +131,7 @@
                         <outlet property="totallabel" destination="ldF-Sq-UJE" id="p6M-aS-5va"/>
                         <outlet property="updatebutton" destination="YSo-vp-ijZ" id="vdo-hQ-DPK"/>
                         <outlet property="updatelabel" destination="2Ov-SZ-HOL" id="Ow5-JC-ldv"/>
+                        <outlet property="너어낭" destination="2Ov-SZ-HOL" id="dyB-mP-utl"/>
                     </connections>
                 </controller>
             </objects>
