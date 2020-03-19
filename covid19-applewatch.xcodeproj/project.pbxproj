@@ -18,6 +18,9 @@
 		A8DFF7E0240C15150058882D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8DFF7A7240BCB0F0058882D /* Assets.xcassets */; };
 		A8DFF7E4240EBEC50058882D /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8DFF77F2404C1190058882D /* Interface.storyboard */; };
 		A8DFF81E240F385F0058882D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8DFF7A7240BCB0F0058882D /* Assets.xcassets */; };
+		A8EDBE2424174D2200DBD15B /* PushNotificationPayloads.apns in Resources */ = {isa = PBXBuildFile; fileRef = A8EDBE2324174D2200DBD15B /* PushNotificationPayloads.apns */; };
+		A8EDBE2524174D3400DBD15B /* PushNotificationPayloads.apns in Resources */ = {isa = PBXBuildFile; fileRef = A8EDBE2324174D2200DBD15B /* PushNotificationPayloads.apns */; };
+		A8EDBE2624174D3700DBD15B /* PushNotificationPayloads.apns in Resources */ = {isa = PBXBuildFile; fileRef = A8EDBE2324174D2200DBD15B /* PushNotificationPayloads.apns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,10 +77,10 @@
 		A8DFF7922404C11A0058882D /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		A8DFF7942404C11B0058882D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A8DFF7962404C11B0058882D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A8DFF7972404C11B0058882D /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 		A8DFF7A52404C1FF0058882D /* mainInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainInterfaceController.swift; sourceTree = "<group>"; };
 		A8DFF7A7240BCB0F0058882D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A8DFF7E3240EBD370058882D /* covid19-applewatch WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "covid19-applewatch WatchKit Extension.entitlements"; sourceTree = "<group>"; };
+		A8EDBE2324174D2200DBD15B /* PushNotificationPayloads.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayloads.apns; sourceTree = "<group>"; };
 		CAB63FDAED461EC8EE0D3334 /* Pods_covid19_applewatch_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_covid19_applewatch_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -130,8 +133,8 @@
 				A8DFF7922404C11A0058882D /* NotificationController.swift */,
 				A8DFF7942404C11B0058882D /* Assets.xcassets */,
 				A8DFF7962404C11B0058882D /* Info.plist */,
-				A8DFF7972404C11B0058882D /* PushNotificationPayload.apns */,
 				A8DFF7A52404C1FF0058882D /* mainInterfaceController.swift */,
+				A8EDBE2324174D2200DBD15B /* PushNotificationPayloads.apns */,
 			);
 			path = "covid19-applewatch WatchKit Extension";
 			sourceTree = "<group>";
@@ -236,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8DFF7E0240C15150058882D /* Assets.xcassets in Resources */,
+				A8EDBE2624174D3700DBD15B /* PushNotificationPayloads.apns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,6 +249,7 @@
 			files = (
 				A8DFF7A8240BCB0F0058882D /* Assets.xcassets in Resources */,
 				A8DFF7812404C1190058882D /* Interface.storyboard in Resources */,
+				A8EDBE2524174D3400DBD15B /* PushNotificationPayloads.apns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +258,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8DFF7E4240EBEC50058882D /* Interface.storyboard in Resources */,
+				A8EDBE2424174D2200DBD15B /* PushNotificationPayloads.apns in Resources */,
 				A8DFF81E240F385F0058882D /* Assets.xcassets in Resources */,
 				A8DFF7952404C11B0058882D /* Assets.xcassets in Resources */,
 			);
@@ -416,7 +422,7 @@
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_ENTITLEMENTS = "covid19-applewatch WatchKit Extension/covid19-applewatch WatchKit Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 11115;
+				CURRENT_PROJECT_VERSION = 11117;
 				DEVELOPMENT_TEAM = 9GW34P3A2G;
 				INFOPLIST_FILE = "covid19-applewatch WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -424,7 +430,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.2;
+				MARKETING_VERSION = 1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hanukoon.covid19-applewatch.watchkitapp.extension";
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
@@ -441,7 +447,7 @@
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_ENTITLEMENTS = "covid19-applewatch WatchKit Extension/covid19-applewatch WatchKit Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 11115;
+				CURRENT_PROJECT_VERSION = 11117;
 				DEVELOPMENT_TEAM = 9GW34P3A2G;
 				INFOPLIST_FILE = "covid19-applewatch WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -449,7 +455,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.2;
+				MARKETING_VERSION = 1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hanukoon.covid19-applewatch.watchkitapp.extension";
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
@@ -466,11 +472,11 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 11114;
+				CURRENT_PROJECT_VERSION = 11117;
 				DEVELOPMENT_TEAM = 9GW34P3A2G;
 				IBSC_MODULE = covid19_applewatch_WatchKit_Extension;
 				INFOPLIST_FILE = "covid19-applewatch WatchKit App/Info.plist";
-				MARKETING_VERSION = 1.2;
+				MARKETING_VERSION = 1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hanukoon.covid19-applewatch.watchkitapp";
 				PRODUCT_NAME = covidwatch;
 				SDKROOT = watchos;
@@ -487,11 +493,11 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 11114;
+				CURRENT_PROJECT_VERSION = 11117;
 				DEVELOPMENT_TEAM = 9GW34P3A2G;
 				IBSC_MODULE = covid19_applewatch_WatchKit_Extension;
 				INFOPLIST_FILE = "covid19-applewatch WatchKit App/Info.plist";
-				MARKETING_VERSION = 1.2;
+				MARKETING_VERSION = 1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hanukoon.covid19-applewatch.watchkitapp";
 				PRODUCT_NAME = covidwatch;
 				SDKROOT = watchos;
@@ -506,9 +512,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 11114;
+				CURRENT_PROJECT_VERSION = 11117;
 				DEVELOPMENT_TEAM = 9GW34P3A2G;
-				MARKETING_VERSION = 1.2;
+				MARKETING_VERSION = 1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hanukoon.covid19-applewatch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -519,9 +525,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 11114;
+				CURRENT_PROJECT_VERSION = 11117;
 				DEVELOPMENT_TEAM = 9GW34P3A2G;
-				MARKETING_VERSION = 1.2;
+				MARKETING_VERSION = 1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hanukoon.covid19-applewatch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;

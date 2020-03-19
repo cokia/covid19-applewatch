@@ -16,14 +16,14 @@ class mainInterfaceController: WKInterfaceController {
     @IBOutlet weak var locationlabel: WKInterfaceLabel!
     @IBOutlet weak var totallabel: WKInterfaceLabel!
     @IBAction func updatebutton() {
-//        onHttpRequest("process")
-//        onHttpRequest("release")
-//        onHttpRequest("death")
+        onHttpRequest("confirmator")
+        onHttpRequest("release")
+        onHttpRequest("death")
     }
     
     override func awake(withContext context: Any?) {
         super.awake(withContext: context)
-        onHttpRequest("process")
+        onHttpRequest("confirmator")
         onHttpRequest("release")
         onHttpRequest("death")
         // Configure interface objects here.
@@ -42,7 +42,7 @@ class mainInterfaceController: WKInterfaceController {
     func onHttpRequest(_ reqtype:String) {
   
         //URL생성
-        let url = "https://covidwatch.danal.me/total/isolation/" //확진자
+        let url = "https://covidwatch.danal.me/" //확진자
         guard let totalurl = URL(string:url+reqtype) else {return}
         var request = URLRequest(url: totalurl)
         request.httpMethod = "get" //get : Get 방식, post : Post 방식
@@ -67,7 +67,7 @@ class mainInterfaceController: WKInterfaceController {
                     DispatchQueue.main.async {
                         print(str)
                     
-                        if(reqtype == "process"){
+                        if(reqtype == "confirmator"){
                              self.totallabel.setText(str)
                         }
                         if(reqtype == "release"){

@@ -1,9 +1,0 @@
-
-{
-    "Simulator Target Bundle": "com.hanukoon.covid19-applewatch.watchkitapp.extension",
-    "aps": {
-        "alert": "Push Notifications Test",
-        "sound": "default",
-        "badge": 1
-    }
-}

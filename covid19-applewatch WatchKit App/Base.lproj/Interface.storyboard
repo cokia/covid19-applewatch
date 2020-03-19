@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="15702" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="i9h-27-sbd">
-    <device id="watch44"/>
+    <device id="watch38"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="15501"/>
@@ -172,7 +172,7 @@
                     </connections>
                 </notificationController>
             </objects>
-            <point key="canvasLocation" x="151" y="1431"/>
+            <point key="canvasLocation" x="151" y="1522"/>
         </scene>
     </scenes>
     <resources>

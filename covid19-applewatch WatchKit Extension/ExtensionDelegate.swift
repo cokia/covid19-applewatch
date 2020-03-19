@@ -8,11 +8,46 @@
 
 import WatchKit
 import UIKit
+import CoreLocation
 import UserNotifications
 
 class ExtensionDelegate: NSObject, WKExtensionDelegate {
+    func tokenAddtoServer(token :String) {
+        let uuid = NSUUID().uuidString
+        print(uuid)
+            let url = "https://covidwatch.danal.me/apns/register"
+            let arg = "?uuid=\(uuid)&token=\(token)"
+           guard let totalurl = URL(string:url+arg) else {return}
+        var request = URLRequest(url: totalurl)
+            request.httpMethod = "get" //get : Get 방식, post : Post 방식
+          let session = URLSession.shared
+                let task = session.dataTask(with: request, completionHandler: { (data: Data?, response: URLResponse?, error: Error?) in
+                    
+                    //error 일경우 종료
+                    guard error == nil && data != nil else {
+                        if let err = error {
+                            print(err.localizedDescription)
+                        }
+                        return
+                    }
+                    if let _data = data {
+                        if let strData = NSString(data: _data, encoding: String.Encoding.utf8.rawValue) {
+                            let str: String = String(strData)
+                            //print(str)
+                            //메인쓰레드에서 출력하기 위해
+                            DispatchQueue.main.async {
+                                print(str)
+                            }
+                        }
+                    }else{
+                        print("data null")
+                    }
+                })
+                task.resume()
+
+    }
+    
     func applicationDidFinishLaunching() {
-        print("ASD")
         WKExtension.shared().registerForRemoteNotifications()
         UNUserNotificationCenter.current().requestAuthorization(
             options: [.alert, .sound, .badge],
@@ -20,19 +55,27 @@ class ExtensionDelegate: NSObject, WKExtensionDelegate {
                 print(didAllow)
             }
         )
+
     }
     
-    func didRegisterForRemoteNotifications(withDeviceToken deviceToken: Data) {
+    
+    func didRegisterForRemoteNotifications (withDeviceToken deviceToken: Data) {
+        print("success")
         let token = deviceToken.reduce("", {$0 + String(format: "%02X", $1)})
         print("APNs Device Token is \(token)")
+        tokenAddtoServer(token: token)
+        
+        
     }
     
     func didReceiveRemoteNotification(_ userInfo: [AnyHashable : Any], fetchCompletionHandler completionHandler: @escaping (WKBackgroundFetchResult) -> Void) {
-        print(userInfo)
+        print("recv")
     }
     
     func didFailToRegisterForRemoteNotificationsWithError(_ error: Error) {
-        print("APNs register failed.")
+        tokenAddtoServer(token: "asd")
+        print("asdf")
+        print(error)
     }
     
     func applicationDidBecomeActive() {
