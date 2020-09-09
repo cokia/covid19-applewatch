@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A8DFF7792404C1190058882D"
-               BuildableName = "covidwatch.app"
+               BuildableName = "pointing-demo.app"
                BlueprintName = "covid19-applewatch WatchKit App"
                ReferencedContainer = "container:covid19-applewatch.xcodeproj">
             </BuildableReference>
@@ -29,7 +29,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A8DFF7752404C1190058882D"
-               BuildableName = "covid19-applewatch.app"
+               BuildableName = "pointing-demo.app"
                BlueprintName = "covid19-applewatch"
                ReferencedContainer = "container:covid19-applewatch.xcodeproj">
             </BuildableReference>
@@ -54,8 +54,7 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES"
-      launchAutomaticallySubstyle = "8"
-      notificationPayloadFile = "covid19-applewatch WatchKit Extension/PushNotificationPayload.apns">
+      launchAutomaticallySubstyle = "8">
       <RemoteRunnable
          runnableDebuggingMode = "2"
          BundleIdentifier = "com.apple.Carousel"
@@ -63,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A8DFF7792404C1190058882D"
-            BuildableName = "covidwatch.app"
+            BuildableName = "pointing-demo.app"
             BlueprintName = "covid19-applewatch WatchKit App"
             ReferencedContainer = "container:covid19-applewatch.xcodeproj">
          </BuildableReference>
@@ -75,8 +74,7 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES"
-      launchAutomaticallySubstyle = "8"
-      notificationPayloadFile = "covid19-applewatch WatchKit Extension/PushNotificationPayload.apns">
+      launchAutomaticallySubstyle = "8">
       <RemoteRunnable
          runnableDebuggingMode = "2"
          BundleIdentifier = "com.apple.Carousel"
@@ -84,7 +82,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A8DFF7792404C1190058882D"
-            BuildableName = "covidwatch.app"
+            BuildableName = "pointing-demo.app"
             BlueprintName = "covid19-applewatch WatchKit App"
             ReferencedContainer = "container:covid19-applewatch.xcodeproj">
          </BuildableReference>
@@ -93,7 +91,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A8DFF7792404C1190058882D"
-            BuildableName = "covidwatch.app"
+            BuildableName = "pointing-demo.app"
             BlueprintName = "covid19-applewatch WatchKit App"
             ReferencedContainer = "container:covid19-applewatch.xcodeproj">
          </BuildableReference>

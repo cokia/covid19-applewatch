@@ -7,38 +7,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "28ACFB5B-F5B4-4334-998F-2C85CF1CBDDF"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "covid19-applewatch WatchKit Extension/mainInterfaceController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "41"
-            endingLineNumber = "41"
-            landmarkName = "mainInterfaceController"
-            landmarkType = "3">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "73D8378C-8E32-4BC5-A392-BA0BEBB6169C"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "covid19-applewatch WatchKit Extension/mainInterfaceController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "28"
-            endingLineNumber = "28"
-            landmarkName = "awake(withContext:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "F3D868FF-B2FB-4BC5-8D2E-B09061EC9035"
             shouldBeEnabled = "No"
             ignoreCount = "0"
@@ -46,9 +14,9 @@
             filePath = "covid19-applewatch WatchKit Extension/mainInterfaceController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "45"
-            endingLineNumber = "45"
-            landmarkName = "onHttpRequest(_:)"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "willActivate()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -62,10 +30,8 @@
             filePath = "covid19-applewatch WatchKit Extension/ExtensionDelegate.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "84"
-            endingLineNumber = "84"
-            landmarkName = "ExtensionDelegate"
-            landmarkType = "3">
+            startingLineNumber = "79"
+            endingLineNumber = "79">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -78,10 +44,8 @@
             filePath = "covid19-applewatch WatchKit Extension/ExtensionDelegate.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "89"
-            endingLineNumber = "89"
-            landmarkName = "ExtensionDelegate"
-            landmarkType = "3">
+            startingLineNumber = "79"
+            endingLineNumber = "79">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -94,10 +58,8 @@
             filePath = "covid19-applewatch WatchKit Extension/ExtensionDelegate.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "88"
-            endingLineNumber = "88"
-            landmarkName = "applicationWillResignActive()"
-            landmarkType = "7">
+            startingLineNumber = "79"
+            endingLineNumber = "79">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -110,9 +72,148 @@
             filePath = "covid19-applewatch WatchKit Extension/ExtensionDelegate.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "87"
-            endingLineNumber = "87"
-            landmarkName = "applicationWillResignActive()"
+            startingLineNumber = "79"
+            endingLineNumber = "79">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D556B580-8E60-4724-ADD0-168351679189"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "covid19-applewatch WatchKit Extension/mainInterfaceController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "82"
+            endingLineNumber = "82"
+            landmarkName = "mainInterfaceController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EC5DB5EC-DA02-4B10-AFD7-16DCF1616EC3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "covid19-applewatch WatchKit Extension/mainInterfaceController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "willActivate()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "726A10EE-C310-46EE-9C5D-C0BA0F7C0BCB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "covid19-applewatch WatchKit Extension/mainInterfaceController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "mainInterfaceController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "726A10EE-C310-46EE-9C5D-C0BA0F7C0BCB - dac5a6e33a57386c"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "covid19_applewatch_WatchKit_Extension.mainInterfaceController.mainbutton.getter : Swift.Optional&lt;__C.WKInterfaceButton&gt;"
+                  moduleName = "covid19-applewatch WatchKit Extension"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/h4nuko0n/Desktop/DEV/IOS/pointing-applewatch/covid19-applewatch%20WatchKit%20Extension/mainInterfaceController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "98">
+               </Location>
+               <Location
+                  uuid = "726A10EE-C310-46EE-9C5D-C0BA0F7C0BCB - 9a6786651914cc60"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "covid19_applewatch_WatchKit_Extension.mainInterfaceController.mainbutton.setter : Swift.Optional&lt;__C.WKInterfaceButton&gt;"
+                  moduleName = "covid19-applewatch WatchKit Extension"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/h4nuko0n/Desktop/DEV/IOS/pointing-applewatch/covid19-applewatch%20WatchKit%20Extension/mainInterfaceController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "118">
+               </Location>
+               <Location
+                  uuid = "726A10EE-C310-46EE-9C5D-C0BA0F7C0BCB - 75151867f215365c"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "covid19_applewatch_WatchKit_Extension.mainInterfaceController.mainbutton.modify : Swift.Optional&lt;__C.WKInterfaceButton&gt;"
+                  moduleName = "covid19-applewatch WatchKit Extension"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/h4nuko0n/Desktop/DEV/IOS/pointing-applewatch/covid19-applewatch%20WatchKit%20Extension/mainInterfaceController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "70">
+               </Location>
+               <Location
+                  uuid = "726A10EE-C310-46EE-9C5D-C0BA0F7C0BCB - 88919dc29a6325af"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "covid19_applewatch_WatchKit_Extension.mainInterfaceController.mainbutton.modify : Swift.Optional&lt;__C.WKInterfaceButton&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "covid19-applewatch WatchKit Extension"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/h4nuko0n/Desktop/DEV/IOS/pointing-applewatch/covid19-applewatch%20WatchKit%20Extension/mainInterfaceController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "67">
+               </Location>
+               <Location
+                  uuid = "726A10EE-C310-46EE-9C5D-C0BA0F7C0BCB - dd3ef40df115734b"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "covid19_applewatch_WatchKit_Extension.mainInterfaceController.init() -&gt; covid19_applewatch_WatchKit_Extension.mainInterfaceController"
+                  moduleName = "covid19-applewatch WatchKit Extension"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/h4nuko0n/Desktop/DEV/IOS/pointing-applewatch/covid19-applewatch%20WatchKit%20Extension/mainInterfaceController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "31">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "992057D2-DA00-41A1-AD10-17D813CE5922"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "covid19-applewatch WatchKit Extension/mainInterfaceController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "willActivate()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
